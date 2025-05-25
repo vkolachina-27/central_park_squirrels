@@ -1,0 +1,20 @@
+[project]
+title = "Central Park Squirrels"
+version = "0.1.0"
+port = 8501
+slug = "central-park-squirrels"  
+entrypoint = "hello.py"    
+
+[branding]
+name = "Central Park Squirrels"
+logo = "images/squirrel.png"
+favicon = "images/squirrel2.ico"
+primaryColor = "#E0CAB3"
+
+[data.sample_csv]
+type = "csv"
+path = "data/sample.csv"
+
+[logging]
+level = "INFO"  
+format = "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
